@@ -1,3 +1,3 @@
-export default function waterfall(promises) {
+module.exports = function waterfall(promises) {
   return promises.reduce((wfall, currentPromise) => wfall.then(currentPromise), Promise.resolve())
 }
