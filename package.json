@@ -1,5 +1,5 @@
 {
-  "name": "waterfall",
+  "name": "@astrocoders/waterfall",
   "version": "1.0.0",
   "main": "waterfall.js",
   "author": "medson10",
