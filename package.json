@@ -1,0 +1,22 @@
+{
+  "name": "waterfall",
+  "version": "1.0.0",
+  "main": "waterfall.js",
+  "author": "medson10",
+  "license": "MIT",
+  "devDependencies": {
+    "lint-staged": "^7.2.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "1.14.2"
+  },
+  "pre-commit": "lint:staged",
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote true --trailing-comma all --print-width 100 --semi false",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "lint:staged": "lint-staged",
+  }
+}
