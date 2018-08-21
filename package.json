@@ -1,6 +1,6 @@
 {
   "name": "@astrocoders/waterfall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "waterfall.js",
   "author": "medson10 <medson.oliveira.jr@gmail.com>",
   "repository": "git@github.com:Astrocoders/waterfall.git",
