@@ -1,3 +1,7 @@
 module.exports = function waterfall(promises) {
-  return promises.reduce((wfall, currentPromise) => wfall.then(acc => currentPromise().then(result => Array.concat(acc, result))), Promise.resolve([]))
+  return promises.reduce(
+    (wfall, currentPromise) =>
+      wfall.then(acc => currentPromise().then(result => acc.concat(result))),
+    Promise.resolve([]),
+  )
 }
