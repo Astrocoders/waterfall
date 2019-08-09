@@ -1,6 +1,6 @@
 # Waterfall
 
-This function receives an array of promises and resolves all them one by one when the execution of this function finish all promises passed will be resolved. This is more performative than Promise.all when you need to wait for a big array of promises.
+This function receives an array of promises and resolves all them one by one when the execution of this function finish all promises passed will be resolved. This is more performatic than Promise.all when you need to await a big array of promises.
 
 # Install
 ````
